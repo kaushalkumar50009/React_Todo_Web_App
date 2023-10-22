@@ -10,11 +10,11 @@
   justify-content: center;
   align-items: center;
   height: 9rem;
-  background-color: #002d1c;
+  background: #000;
   color: white;
   letter-spacing: 1px;
   text-transform: capitalize;
-  box-shadow: #002d1c 0px 8px 28px 29px;
+  box-shadow: #000 0px 8px 28px 29px;
   font-size: 27px;
 }
 
@@ -23,6 +23,8 @@
   padding: 1rem;
   gap: 30px;
   height: 7rem;
+  background-color: none;
+  box-shadow: none;
 }
 
 input[type="text"] {
@@ -44,9 +46,9 @@ input[type="text"] {
   font-weight: bold;
   letter-spacing: 1px;
   color: #fff;
-  background-color: #0299277d;
+  background-color: #02929930;
   outline: none;
-  border: 1px solid #197100;
+  border: 1px solid #f2f2f2f7;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: #000000ed 2px 3px 6px;
@@ -56,7 +58,8 @@ input[type="text"] {
 
 .main_body {
   min-height: calc(100vh - 177px);
-  background-color: #011e00;
+  /* background-color: #011e00; */
+  background: url("../../../public/air-494020_1280.jpg");
 }
 .todo_list {
   color: white;

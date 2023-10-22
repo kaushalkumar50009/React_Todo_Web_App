@@ -6,13 +6,16 @@
   align-items: center;
   gap: 21px;
   border-radius: 21px 6rem 21px 21px;
-
   height: max-content;
   width: 21rem;
   color: #ffffff;
+  -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  box-shadow: #376f00 7px 7px 26px;
-  background-color: #012016;
+  box-shadow: #005f6f 7px 7px 26px;
+  background-color: #01201600;
+  border: 2px solid #0ff9;
+  border-block-start-color: black;
+  border-inline-end-color: black;
 }
 
 .card_index_title {
@@ -61,10 +64,9 @@
   letter-spacing: 0.4px;
   font-weight: bold;
   outline: transparent;
-  border-radius: 12rem 0rem 12rem 0rem;
-
+  border-radius: 1rem 1rem 12rem 1rem;
   color: #fff;
-  background-color: #0299277d;
-  border: 1px solid #197100;
+  background-color: #0284992b;
+  border: 1px solid #fff;
   box-shadow: #000000ed 2px 3px 6px;
 }
