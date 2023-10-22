@@ -1,3 +1,56 @@
+# Todo List Manager
+
+The Todo List Manager is a simple web application built with React that allows users to create, manage, and track their tasks in a to-do list. Users can add new tasks, mark tasks as completed, and remove tasks from the list. It also includes input validation for task titles using a schema to ensure data integrity.
+
+## Features
+
+- Add tasks to the to-do list.
+- Mark tasks as "pending" or "completed."
+- Remove tasks from the list.
+- Input validation for task titles.
+- Dynamic error handling for invalid inputs.
+
+## Technologies Used
+
+- React: The JavaScript library for building user interfaces.
+- [Yup](https://github.com/jquense/yup): A schema validation library used for input validation.
+- HTML and CSS: The structure and styling of the web page.
+
+## How to Use
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/todo-list-manager.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Open your web browser and visit `http://localhost:3000` to access the Todo List Manager.
+
+5. Use the application to add, update, and remove tasks from your to-do list.
+
+## Code Structure
+
+The code is organized into two main components:
+
+1. **Sec Component (Todo List Manager)**: This component handles the overall structure of the application, manages the state, and includes the logic for adding, updating, and removing tasks. It also handles input validation and error handling.
+
+2. **First Component (Individual Task)**: This component represents an individual task within the to-do list. It receives data from the Sec component, such as task title and status, and provides buttons to update the task's status and remove the task from the list.
+
+
+Please customize this README according to your specific project details and provide any additional information that might be relevant.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
